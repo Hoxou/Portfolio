@@ -4,13 +4,14 @@ import Profileabout from '../profile/Profileabout';
 import Profileskills from '../profile/Profileskills';
 import Profilecontact from '../profile/Profilecontact';
 import Profileworkexp from '../profile/Profileworkexp';
+import Education from '../profile/Education';
 
 export default function Container() {
     const containerStyle: React.CSSProperties = {
         width: '60%',
         height: 'auto',
         margin: 'auto',
-        paddingTop: '15px',
+        paddingTop: '50px',
     }
 
     return (
@@ -20,6 +21,7 @@ export default function Container() {
             <Profileskills />
             <Profileabout />
             <Profileworkexp />
+            <Education />
         </div>
     );
 }
