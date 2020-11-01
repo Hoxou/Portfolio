@@ -7,7 +7,7 @@ import Profileworkexp from '../profile/Profileworkexp';
 
 export default function Container() {
     const containerStyle: React.CSSProperties = {
-        width: '50%',
+        width: '60%',
         height: 'auto',
         margin: 'auto',
         paddingTop: '15px',

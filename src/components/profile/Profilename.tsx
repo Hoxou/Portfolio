@@ -19,7 +19,6 @@ export default function Profilename() {
         letterSpacing: '2px',
         color: '#fff',
     }
-
     const profilenameStyle: React.CSSProperties = {
         alignSelf: 'auto',
         display: 'flex',

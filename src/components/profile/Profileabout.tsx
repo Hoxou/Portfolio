@@ -25,6 +25,7 @@ export default function Profileabout() {
                 I am a serious and ambitious person who loves challenges, therefore I am open toany kind of job propositions.
             </p>
             <iframe
+                title="iframe"
                 width='100%'
                 height="515"
                 src="https://www.youtube.com/embed/pfXem9xoCzA"

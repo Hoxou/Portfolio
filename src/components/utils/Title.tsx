@@ -12,7 +12,8 @@ export default function Title(props: TitleProps) {
         fontSize: '24px',
         color: '#fff',
         paddingLeft: '10px',
-        borderLeft: '5px solid #0B56C7'
+        borderLeft: '5px solid #0B56C7',
+        marginTop: 70
     }
 
     return (
