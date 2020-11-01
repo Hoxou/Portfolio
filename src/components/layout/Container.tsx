@@ -1,8 +1,9 @@
 import * as React from 'react';
 import Profilename from '../profile/Profilename';
 import Profileabout from '../profile/Profileabout';
-import profileSkills from '../profile/Profileskills';
 import Profileskills from '../profile/Profileskills';
+import Profilecontact from '../profile/Profilecontact';
+import Profileworkexp from '../profile/Profileworkexp';
 
 export default function Container() {
     const containerStyle: React.CSSProperties = {
@@ -15,8 +16,10 @@ export default function Container() {
     return (
         <div style={containerStyle}>
             <Profilename />
+            <Profilecontact />
             <Profileskills />
             <Profileabout />
+            <Profileworkexp />
         </div>
     );
 }

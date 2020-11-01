@@ -15,12 +15,12 @@ export default function Profileabout() {
         color: '#fff',
         fontSize: '17px',
         textAlign: 'justify',
-        textShadow: '5px 5px black',
+        textShadow: '1px 1px 5px black',
         marginBottom: '50px'
     }
 
     const profileaboutStyle: React.CSSProperties = {
-
+        marginBottom: '50px'
     }
 
     return (
