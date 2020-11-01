@@ -12,7 +12,7 @@ export default function Profileabout() {
     }
 
     const profileaboutStyle: React.CSSProperties = {
-
+        marginBottom: '50px'
     }
 
     return (

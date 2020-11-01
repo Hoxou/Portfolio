@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Container from './Container';
-import Bg from '../../assets/nodejs.jpg';
+import Bg from '../../assets/bg3.jpg';
 
 export default function Homepage() {
     const Bgstyle: React.CSSProperties = {
