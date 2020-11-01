@@ -15,7 +15,7 @@ export default function Profilename() {
         borderLeft: '8px solid #0B56C7',
         paddingLeft: '50px',
         fontSize: '50px',
-        fontFamily: 'Orbitron',
+        fontFamily: 'Lato',
         letterSpacing: '2px',
         color: '#fff',
     }
@@ -34,7 +34,7 @@ export default function Profilename() {
                 alt='profile_picture'
             />
             <div style={nameStyle}>
-                <i>Victor Toupar</i>
+                Victor Toupar
             </div>
         </div>
     );

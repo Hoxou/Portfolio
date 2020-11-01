@@ -1,6 +1,6 @@
-import { wrap } from 'module';
 import * as React from 'react';
 import SkillBar from 'react-skillbars';
+import Title from '../utils/Title';
 
 export default function Profileskills() {
     const Computerskills = [
@@ -98,14 +98,6 @@ export default function Profileskills() {
         justifyContent: 'space-between'
     }
 
-    const h3Style: React.CSSProperties = {
-        fontFamily: 'Orbitron',
-        fontSize: '24px',
-        color: '#fff',
-        paddingLeft: '10px',
-        borderLeft: '5px solid #0B56C7'
-    }
-
     const skillcategoryStyle: React.CSSProperties = {
         flexBasis: '400px',
     }
@@ -113,13 +105,14 @@ export default function Profileskills() {
     return (
         <div style={profileskillsStyle}>
             <div style={skillcategoryStyle}>
-                <h3 style={h3Style}>Computer Skills</h3>
+                <Title label="Computer Skills" />
                 <SkillBar skills={Computerskills} colors={colors} />
             </div>
             <div style={skillcategoryStyle}>
-                <h3 style={h3Style}>Languages Skills</h3>
+                <Title label="Language skills" />
                 <SkillBar skills={Languagesskills} colors={colors} />
             </div>
         </div>
+
     );
 }
