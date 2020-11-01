@@ -32,7 +32,7 @@ export default function Profileskills() {
             }
         },
         {
-            type: "Git/Github",
+            type: "Git",
             level: 95,
             color: {
                 title: {
@@ -42,7 +42,7 @@ export default function Profileskills() {
         },
         {
             type: "C/C#",
-            level: 90,
+            level: 60,
             color: {
                 title: {
                     background: '#0f4c75'

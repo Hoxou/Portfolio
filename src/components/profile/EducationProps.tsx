@@ -13,7 +13,7 @@ export default function EducationProps(props: EducationPropss) {
         fontSize: 21,
         fontWeight: 'bold',
         color: '#fff',
-        borderBottom: '3px solid #0B56C7',
+        borderBottom: '3px solid #666',
         marginBottom: '10px'
 
     }

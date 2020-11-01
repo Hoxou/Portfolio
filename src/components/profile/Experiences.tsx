@@ -1,6 +1,4 @@
-import { FormatItalic } from '@material-ui/icons';
 import * as React from 'react';
-import Title from '../utils/Title';
 
 interface ExperiencesProps {
     WorkPosition: String,
@@ -16,7 +14,7 @@ export default function Experiences(props: ExperiencesProps) {
         fontSize: 21,
         fontWeight: 'bold',
         color: '#fff',
-        borderBottom: '3px solid #0B56C7',
+        borderBottom: '3px solid #666',
         marginBottom: '10px'
 
     }
