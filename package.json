@@ -1,6 +1,6 @@
 {
   "name": "my-resume",
-  "homepage": "httpgi://hoxou.github.io/Portfolio/",
+  "homepage": "http://hoxou.github.io/Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
