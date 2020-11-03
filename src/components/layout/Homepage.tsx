@@ -7,7 +7,7 @@ export default function Homepage() {
         position: 'absolute',
         margin: '0 auto',
         backgroundImage: 'url(' + Bg + ')',
-        backgroundSize: '100% auto',
+        backgroundSize: 'cover',
         backgroundAttachment: 'fixed'
 
     }
