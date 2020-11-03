@@ -5,9 +5,9 @@ import profilePic from '../../assets/profilepic.jpg';
 export default function Profilename() {
 
     const profilepicStyle: React.CSSProperties = {
-        width: '45%',
+        width: '40%',
         maxWidth: '150px',
-        height: '45%',
+        height: '40%',
         borderRadius: '100%',
         border: '8px solid #0B56C7'
     }
@@ -15,7 +15,7 @@ export default function Profilename() {
         marginLeft: '5%',
         borderLeft: '8px solid #0B56C7',
         paddingLeft: '5%',
-        fontSize: '250%',
+        fontSize: '50px',
         fontFamily: 'Lato',
         letterSpacing: '2px',
         color: '#fff',
