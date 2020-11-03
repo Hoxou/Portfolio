@@ -95,11 +95,13 @@ export default function Profileskills() {
 
     const profileskillsStyle: React.CSSProperties = {
         display: 'flex',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        flexWrap: 'wrap'
     }
 
     const skillcategoryStyle: React.CSSProperties = {
-        flexBasis: '400px',
+        flexBasis: '450px',
+        maxWidth: '100%'
     }
 
     return (

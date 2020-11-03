@@ -5,15 +5,16 @@ import profilePic from '../../assets/profilepic.jpg';
 export default function Profilename() {
 
     const profilepicStyle: React.CSSProperties = {
-        width: '150px',
-        height: '150px',
+        width: '45%',
+        maxWidth: '150px',
+        height: '45%',
         borderRadius: '100%',
         border: '8px solid #0B56C7'
     }
     const nameStyle: React.CSSProperties = {
-        marginLeft: '45px',
+        marginLeft: '5%',
         borderLeft: '8px solid #0B56C7',
-        paddingLeft: '50px',
+        paddingLeft: '5%',
         fontSize: '50px',
         fontFamily: 'Lato',
         letterSpacing: '2px',
