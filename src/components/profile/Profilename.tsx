@@ -15,7 +15,7 @@ export default function Profilename() {
         marginLeft: '5%',
         borderLeft: '8px solid #0B56C7',
         paddingLeft: '5%',
-        fontSize: '50px',
+        fontSize: '250%',
         fontFamily: 'Lato',
         letterSpacing: '2px',
         color: '#fff',
